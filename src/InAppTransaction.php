@@ -36,6 +36,11 @@ class InAppTransaction
         $this->transaction = $transaction;
     }
 
+    public function toArray()
+    {
+        return $this->transaction;
+    }
+
     public function __set($name, $value)
     {
         // TODO: Implement __set() method.

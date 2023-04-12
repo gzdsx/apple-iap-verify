@@ -45,6 +45,11 @@ class VerifyResponse
         return $this->status == 0;
     }
 
+    public function toArray()
+    {
+        return $this->response;
+    }
+
     public function __set($name, $value)
     {
         // TODO: Implement __set() method.
