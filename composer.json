@@ -1,0 +1,23 @@
+{
+  "name": "gzdsx/apple-iap-verify",
+  "description": "Apple内购业务服务器端验证SDK",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "gzdsx",
+      "email": "307718818@qq.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AppleIapVerify\\": "src\\"
+    }
+  }
+}
