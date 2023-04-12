@@ -50,6 +50,15 @@ class VerifyResponse
         return $this->response;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getErrorMessage()
+    {
+        return $this->statusMap[$this->status] ?? null;
+    }
+
+
     public function __set($name, $value)
     {
         // TODO: Implement __set() method.
